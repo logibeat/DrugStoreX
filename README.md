@@ -1,4 +1,4 @@
-oyster-for-android
+WeDrugStore
 ==================
 
-代号为Oyster的Android App项目
+WeDrugStore手机App的Android版
