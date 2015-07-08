@@ -1,4 +1,4 @@
-WeDrugStore
+DrugStoreX
 ==================
 
-WeDrugStore手机App的Android版
+药店端手机App的源代码
