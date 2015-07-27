@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="cn.yaobd.android.drugstorex.app" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>DrugStoreX</name>
+    <description>
+        An App for Drugstore-Side Cooperate of Yaoku Tech.
+    </description>
+    <author email="yaobida@qq.com" href="http://www.yaobd.cn">
+        Hangzhou Yaoku Technology Co., Ltd.
+    </author>
+    <!--Content元素是可选的,该元素指定了应用程序的启动页面,默认为index.html-->
+    <content src="index.html" />
+    <content src="http://www.baidu.com" />
+    <content src="http://ybd01.yaobd.cn/simiao/static/mdlv/login.html" />
+    <plugin name="cordova-plugin-whitelist" version="1" />
+    <allow-navigation href="*://*.yaobd.cn/*" />
+    <allow-navigation href="*://*.yaokutech.com/*" />
+    <allow-navigation href="*://*.qq.com/*" />
+    <allow-navigation href="*://*.baidu.com/*" />
+    <allow-navigation href="*://*.alipay.com/*" />
+    <allow-navigation href="*://*.aliyun.com/*" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+    <!-- add some preference -->
+    <!-- refer to http://blog.csdn.net/zythy/article/details/21821481 -->
+    <!-- Fullscreen设置程序是否全屏,全屏时状态栏将不可见,默认为false -->
+    <preference name="Fullscreen" value="true" />
+    <!-- Orientation设置可以让你锁定应用程序屏幕方向以阻止屏幕自动翻转,可选的值有: default、landscape、portrait -->
+    <preference name="Orientation" value="portrait" />
+    <!-- 针对iOS 和 Android 有效 -->
+    <preference name="DisallowOverscroll" value="true"/>
+    <!--设置应用程序背景色，针对Android和Blackberry有效。
+     四部分组成,第一部分是透明度,后三个依次为红绿蓝,如果要跨平台可在html里以使用css样式：body{background-color：blue}
+
+    <preference name="BackgroundColor" value="0xff0000ff" />
+     -->
+    <!-- 日志级别 -->
+    <preference name="loglevel" value="INFO" />
+    <!--启动页面,停留时间-->
+    <preference name="SplashScreenDelay" value="10000" />
+</widget>

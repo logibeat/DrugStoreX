@@ -22,7 +22,7 @@ local.properties
 # IntelliJ project files
 .idea
 .idea*
-# *.iml
+*.iml
 
 # Gradle cache files
 .gradle
