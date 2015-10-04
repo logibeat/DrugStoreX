@@ -1,5 +1,5 @@
 var requireConfig = {
-    jsonBaseUrl: "scripts",
+    baseUrl: "scripts",
     paths: {
         jquery: "lib/jquery/2.1.4/jquery.min",
         swipe: "lib/swipe/2.0/swipe.min",
@@ -13,9 +13,7 @@ var requireConfig = {
     }
 };
 
-var runInDevice = 1;
-// var jsonBaseUrl = "http://api.test.yaobd.cn/simiao/app/drugstorex/";
-var jsonBaseUrl = "http://api.yaobd.cn/simiao/app/drugstorex/";
+var runInDevice = true;
 document.devicereadyList = [];
 
 (function () {
