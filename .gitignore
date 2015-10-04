@@ -1,3 +1,7 @@
+/plugins
+/platforms
+/.idea
+/.idea3
 # built application files
 *.apk
 *.ap_
