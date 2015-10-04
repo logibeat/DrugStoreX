@@ -26,3 +26,13 @@ local.properties
 
 # Gradle cache files
 .gradle
+
+*.swp
+
+*.ipr
+
+*.iws
+
+*.iws
+
+*.ipr

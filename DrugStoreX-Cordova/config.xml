@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="cn.yaobd.android.drugstorex.app" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>DrugStoreX</name>
+<widget id="com.yaokutech.android.drugstorex.app" version="1.0.4" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>药必达X端</name>
     <description>
         An App for Drugstore-Side Cooperate of Yaoku Tech.
     </description>
-    <author email="yaobida@qq.com" href="http://www.yaobd.cn">
+    <author email="yaobida@qq.com" href="http://www.yaokutech.com">
         Hangzhou Yaoku Technology Co., Ltd.
     </author>
     <!--Content元素是可选的,该元素指定了应用程序的启动页面,默认为index.html-->
     <content src="index.html" />
     <content src="http://www.baidu.com" />
-    <content src="http://ybd01.yaobd.cn/simiao/static/mdlv/login.html" />
+    <content src="http://m.yaobd.cn/simiao/static/mdlv/login.html" />
     <plugin name="cordova-plugin-whitelist" version="1" />
     <allow-navigation href="*://*.yaobd.cn/*" />
     <allow-navigation href="*://*.yaokutech.com/*" />
